@@ -1,0 +1,9 @@
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\bin\Debug\netstandard2.0\Entidad.deps.json
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\bin\Debug\netstandard2.0\Entidad.dll
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\bin\Debug\netstandard2.0\Entidad.pdb
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\obj\Debug\netstandard2.0\Entidad.csprojAssemblyReference.cache
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\obj\Debug\netstandard2.0\Entidad.AssemblyInfoInputs.cache
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\obj\Debug\netstandard2.0\Entidad.AssemblyInfo.cs
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\obj\Debug\netstandard2.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\obj\Debug\netstandard2.0\Entidad.dll
+C:\Users\jesus\OneDrive\Escritorio\PulsacionesWeb\Entidad\obj\Debug\netstandard2.0\Entidad.pdb
