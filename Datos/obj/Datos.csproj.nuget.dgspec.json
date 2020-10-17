@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj": {}
+    "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj": {
+    "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj",
+        "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\Datos.csproj",
         "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\obj\\",
+        "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj": {
-                "projectPath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj"
+              "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -67,18 +67,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj",
+        "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj",
         "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\obj\\",
+        "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -122,7 +122,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

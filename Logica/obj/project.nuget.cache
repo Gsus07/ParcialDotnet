@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0p2vzV1oiBYAvoJaoGLMGpjl3ZjhrFdCkp4YKB626/MZ88XqPiL9DUtBroB+ormdqwd5rpnQpseiiDR00T23ZQ==",
+  "dgSpecHash": "Hujwf1k0oKIkdvNJz4q70R3G2Qu+Plh1MdqrBP/9NRyaum2wBtRxtrn1AjsOhv4q1AQM4YC1LDFCI7ZVJZj+Rw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Logica\\Logica.csproj",
+  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Logica\\Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

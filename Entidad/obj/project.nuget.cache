@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lGcpNrt2PcMZpg96aP4pLpiauCpt2CmjLimP8pZWYid9U/wMAw6KdaKVwZcyp0BhZAkhQg6sN/XLJZYKpu1U8A==",
+  "dgSpecHash": "NOvroMNl22lknkpbWFBEtet5e8qXDdlpX7K/mfvZzCkq1VaAhyKxOvjGLvs6ybB9GLFhWvDVPy9bVPcaaXrKug==",
   "success": true,
-  "projectFilePath": "c:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj",
+  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial en dotnet\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

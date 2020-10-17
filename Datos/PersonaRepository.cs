@@ -1,3 +1,7 @@
+using System.ComponentModel;
+using System.IO.Pipes;
+using System;
+using System.Security.Permissions;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -79,6 +83,11 @@ namespace Datos
             persona.Nombre = (string)dataReader["Nombre"];
             persona.Sexo = (string)dataReader["Sexo"];
             persona.Edad = (int)dataReader["Edad"];
+            persona.Departamento = (string)dataReader["Departamento"];
+            persona.Ciudad = (string)dataReader["Ciudad"];
+            Persona.ValorApoyo = (decimal)dataReader["ValorApoyo"];
+            persona.ModalidadApoyo = (string)dataReader["ModalidadApoyo"];
+            persona.Fecha = (dateTime)dataReader["Fecha"];
             return persona;
         }
         public int Totalizar()
