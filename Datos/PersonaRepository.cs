@@ -6,12 +6,13 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using Entidad;
+using MySql.Data.MySqlClient;
 
 namespace Datos
 {
     public class PersonaRepository
     {
-        private readonly SqlConnection _connection;
+        private readonly MySqlConnection _connection;
         private readonly List<Persona> _personas = new List<Persona>();
         public PersonaRepository(ConnectionManager connection)
         {
@@ -21,7 +22,7 @@ namespace Datos
         {
             using (var command = _connection.CreateCommand())
             {
-                command.CommandText = @"Insert Into Persona (Identificacion,Nombre,Edad, Sexo,Departamento,Ciudad,ValorApoyo,ModalidadApoyo,Fecha) 
+                command.CommandText = @"Insert Into Persona (identificacion,nombre,edad,sexo,departamento,ciudad,valorApoyo,modalidadApoyo,fecha) 
                                         values (@Identificacion,@Nombre,@Edad,@Sexo,@Departamento,@Ciudad,@ValorApoyo,@ModalidadApoyo,@Fecha)";
                 command.Parameters.AddWithValue("@Identificacion", persona.Identificacion);
                 command.Parameters.AddWithValue("@Nombre", persona.Nombre);
@@ -39,14 +40,14 @@ namespace Datos
         {
             using (var command = _connection.CreateCommand())
             {
-                command.CommandText = "Delete from persona where Identificacion=@Identificacion";
+                command.CommandText = "Delete from persona where identificacion=@Identificacion";
                 command.Parameters.AddWithValue("@Identificacion", persona.Identificacion);
                 command.ExecuteNonQuery();
             }
         }
         public List<Persona> ConsultarTodos()
         {
-            SqlDataReader dataReader;
+            MySqlDataReader dataReader;
             List<Persona> personas = new List<Persona>();
             using (var command = _connection.CreateCommand())
             {
@@ -65,29 +66,29 @@ namespace Datos
         }
         public Persona BuscarPorIdentificacion(string identificacion)
         {
-            SqlDataReader dataReader;
+            MySqlDataReader dataReader;
             using (var command = _connection.CreateCommand())
             {
-                command.CommandText = "select * from persona where Identificacion=@Identificacion";
+                command.CommandText = "select * from persona where identificacion=@Identificacion";
                 command.Parameters.AddWithValue("@Identificacion", identificacion);
                 dataReader = command.ExecuteReader();
                 dataReader.Read();
                 return DataReaderMapToPerson(dataReader);
             }
         }
-        private Persona DataReaderMapToPerson(SqlDataReader dataReader)
+        private Persona DataReaderMapToPerson(MySqlDataReader dataReader)
         {
             if(!dataReader.HasRows) return null;
             Persona persona = new Persona();
-            persona.Identificacion = (string)dataReader["Identificacion"];
-            persona.Nombre = (string)dataReader["Nombre"];
-            persona.Sexo = (string)dataReader["Sexo"];
-            persona.Edad = (int)dataReader["Edad"];
-            persona.Departamento = (string)dataReader["Departamento"];
-            persona.Ciudad = (string)dataReader["Ciudad"];
-            Persona.ValorApoyo = (decimal)dataReader["ValorApoyo"];
-            persona.ModalidadApoyo = (string)dataReader["ModalidadApoyo"];
-            persona.Fecha = (dateTime)dataReader["Fecha"];
+            persona.Identificacion = (string)dataReader["identificacion"];
+            persona.Nombre = (string)dataReader["nombre"];
+            persona.Sexo = (string)dataReader["sexo"];
+            persona.Edad = (int)dataReader["edad"];
+            persona.Departamento = (string)dataReader["departamento"];
+            persona.Ciudad = (string)dataReader["ciudad"];
+            persona.ValorApoyo = (decimal)dataReader["valorApoyo"];
+            persona.ModalidadApoyo = (string)dataReader["modalidadApoyo"];
+            persona.Fecha = (DateTime)dataReader["fecha"];
             return persona;
         }
         public int Totalizar()
